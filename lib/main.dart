@@ -1,3 +1,4 @@
+import 'package:e_services/pages/start.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       title: 'Flutter Demo',
 
-      home: const Scaffold(),
+      home: StartPage(),
     );
   }
 }
